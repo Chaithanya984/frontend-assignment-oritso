@@ -32,7 +32,7 @@ class Loginform extends Component {
         },
         body: JSON.stringify(makingObj),
       };
-      const url = "http://localhost:4000/login";
+      const url = "https://backend-assignment-oritso.onrender.com/login";
       const response = await fetch(url, options);
       const data = await response.json();
 

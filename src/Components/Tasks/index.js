@@ -44,7 +44,7 @@ class Tasks extends Component {
     const { isstatus } = this.state;
     this.setState({ isstatus: letloadsomething.LOADVIEW });
     const getjwt = Cookies.get("jwt_token");
-    const uri = "http://localhost:4000/alltask";
+    const uri = "https://backend-assignment-oritso.onrender.com/alltask";
     const options = {
       method: "GET",
       headers: {
@@ -96,7 +96,7 @@ class Tasks extends Component {
         taskupdatedtimestamp: sendtaskupdatedtimestamp,
       };
       const getjwts = Cookies.get("jwt_token");
-      const urlss = "http://localhost:4000/addtask";
+      const urlss = "https://backend-assignment-oritso.onrender.com/addtask";
       const options = {
         method: "POST",
         headers: {

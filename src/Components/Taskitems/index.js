@@ -40,7 +40,7 @@ class Taskitems extends Component {
         id: this.props.sendeach.id,
       };
       const getcook = Cookies.get("jwt_token");
-      const urlpo = "http://localhost:4000/updatetask";
+      const urlpo = "https://backend-assignment-oritso.onrender.com/updatetask";
       const options = {
         method: "PUT",
         headers: {
@@ -77,7 +77,8 @@ class Taskitems extends Component {
 
   deleterowbased = async () => {
     const findid = { id: this.props.sendeach.id };
-    const urlfordel = "http://localhost:4000/deletetask";
+    const urlfordel =
+      "https://backend-assignment-oritso.onrender.com/deletetask";
     const finjwt = Cookies.get("jwt_token");
 
     const options = {

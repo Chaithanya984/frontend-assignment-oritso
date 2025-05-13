@@ -30,7 +30,7 @@ class Signupform extends Component {
       showingsignuperr,
     } = this.state;
     if (usernamdet !== "" && userpassdet !== "" && userpassdet !== "") {
-      const urls = "http://localhost:4000/register";
+      const urls = "https://backend-assignment-oritso.onrender.com/register";
 
       const bringobj = {
         username: usernamdet,
