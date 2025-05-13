@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from "react-router-dom";
+import Mainhome from "./Components/Mainhome";
+import Loginform from "./Components/Loginform";
+import Signupform from "./Components/Signupform";
+import Tasks from "./Components/Tasks";
+import ProtectedRoute from "./Components/ProtectedRoute";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Switch>
+    <Route exact path="/" component={Mainhome} />
+    <Route exact path="/login" component={Loginform} />
+    <Route exact path="/signup" component={Signupform} />
+    <ProtectedRoute exact path="/tasks" component={Tasks} />
+  </Switch>
+);
 
 export default App;

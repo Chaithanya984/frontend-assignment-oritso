@@ -1,0 +1,99 @@
+.task-box {
+  width: 100%;
+
+  padding: 10px;
+  border-radius: 4px;
+  margin: 12px;
+  background-color: white;
+  box-shadow: 0px 4px 8px black;
+}
+
+.task-box-sub {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.edit-task-but {
+  width: 100%;
+
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.design-edit {
+  height: 32px;
+  width: 80px;
+  border-width: 0px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-family: "Roboto";
+  color: white;
+  background-color: rgb(252, 14, 252);
+}
+
+.task-show-head {
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+}
+.task-shows-but {
+  height: 28px;
+  width: 90px;
+  border-width: 0px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-family: "Roboto";
+  margin: 2px;
+  background-color: #fa1bfa;
+  color: white;
+}
+.views-hide {
+  display: none;
+}
+
+.views-shows {
+  display: block;
+}
+
+.sec-sub-bg {
+  width: 100%;
+  background-color: green;
+}
+.first-sub-task {
+  margin-bottom: 14px;
+}
+.task-details-box {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  margin-top: 14px;
+}
+.head-title-head {
+  font-size: 18px;
+  font-family: "Roboto";
+}
+.para-need-para {
+  font-size: 12px;
+  font-family: "Roboto";
+}
+
+.para-need-paras {
+  font-size: 12px;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+.sub-second-box-created {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 8px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 3px;
+  padding: 10px;
+}
