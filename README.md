@@ -1,6 +1,56 @@
+# Overview of the project
+
+    The user can manage his tasks and the user can add task or delete or update tasks. Like a minature of note
+
+# Database Design (ER Diagram, Data Dictionary, Indexes)
+
+    # Api calls:-
+        /login
+        /register
+        /addtask
+        /alltask
+        /updatetask
+        /profile
+        /deletetask
+
+# Description of the backend and frontend structure
+
+# Backend:-
+
+    I created backend in node js the user can ask for create or delete or update or getting all task etc..
+    This backend is pushed to github and from there to it went to production in (render website)
+
+    So here is url you can access backend repo here :-  https://github.com/Chaithanya984/backend-assignment-oritso
+
+# Frontend:-
+
+    I created frontend in react js and the user has login and signup only auth user can manage tasks like
+        * create
+        * delete
+        * update
+        * add task
+    And i pushed frontend in github and here is the repo url:- https://github.com/Chaithanya984/frontend-assignment-oritso
+
+    Due to some errors in production i can't upload both at one place so please check it
+
+    And i published the frontend in versel and here is the link:- https://frontend-assignment-oritso.vercel.app/
+
+# Setup instructions, including environment and dependency installation
+
+    first type npm install and then you can start as npm start
+
+# Testing instructions and results
+
+All test have done like input required field and add task and delete task and auth user login and signup etc..
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# backend public production url and frontend
+
+    backend :- "https://backend-assignment-oritso.onrender.com/"
+    frontend:- "https://frontend-assignment-oritso.vercel.app/"
 
 ## Available Scripts
 
